@@ -8,19 +8,19 @@ While working on it, I divided it into multiple steps: from preprocessing the im
 Here are some example results:
 
 ### 1) Content image
-![](https://gitlab.com/bigbawsboy/neural-style-transfer/blob/master/img/content-image-2.jpg)
+![](img/content-image-2.jpg)
 
 ### 2a) Style image
-![](https://gitlab.com/bigbawsboy/neural-style-transfer/blob/master/img/style-image-2.jpg)
+![](img/style-image-2.jpg)
 
 ### Result:
-![](https://gitlab.com/bigbawsboy/neural-style-transfer/blob/master/img/nst-image.jpg)
+![](img/nst-image.jpg)
 
 ### 2b) Style image
-![](https://gitlab.com/bigbawsboy/neural-style-transfer/blob/master/img/style-image-3.jpg)
+![](img/style-image-3.jpg)
 
 ### Result:
-![](https://gitlab.com/bigbawsboy/neural-style-transfer/blob/master/img/nst-image-2.jpg)
+![](img/nst-image2.jpg)
 
 ## How to run
 This contains a Jupyter notebook. One can add their own image and changing the `CONTENT_IMG2_PATH` with the location of the new image. The balance between content and style can be fine-tuned by changing the `ALPHA` and `BETA` values, respectively. I found that `ALPHA = 50` and `BETA = 1e6` worked best.
